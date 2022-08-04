@@ -1,0 +1,28 @@
+.bg-light {
+    background-color: black!important;
+    border-radius:0.375rem;
+}
+.navbar{
+    --bs-navbar-brand-color: white;
+    --bs-navbar-active-color: white;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: #8d8b9f;
+}
+.nav-link {
+    color: white;
+}
+.dropdown-menu {
+    background-color: black;
+    --bs-dropdown-link-hover-bg: #6c757d;
+    --bs-dropdown-link-color: white;
+    
+}
+.dropdown-menu { 
+    right: 0px;
+    left: auto;
+}
+.dropdown-divider{
+    background-color:white;
+
+}
