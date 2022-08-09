@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Ele Bugna 🌈</a>
+    <a class="navbar-brand" routerLink="">Ele Bugna 🌈</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -8,29 +8,22 @@
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
       
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-       
         <!-- BOTÓN DE INICIO -->
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" routerLink="">Inicio</a>
         </li>
-
-        <!-- LINK ITEM
-          <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-         </li>
-         -->
         <!--DROPDOWN DEL MENÚ-->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Menú
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Sobre mí</a></li>
-            <li><a class="dropdown-item" href="#">Educación</a></li>
-            <li><a class="dropdown-item" href="#">Skills</a></li>
-            <li><a class="dropdown-item" href="#">Proyectos</a></li>
+            <li><a class="dropdown-item" routerLink="Sobremi">Sobre mí</a></li>
+            <li><a class="dropdown-item" routerLink="Educacion">Educación</a></li>
+            <li><a class="dropdown-item" routerLink="Skills">Hard & Soft Skills</a></li>
+            <li><a class="dropdown-item" routerLink="Proyectos">Proyectos</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Log in</a></li>
+            <li><a class="dropdown-item" routerLink="Login">Log in</a></li>
           </ul>
         </li>
       </ul>
