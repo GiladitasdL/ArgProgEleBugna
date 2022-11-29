@@ -16,10 +16,15 @@
  color: white;  
  font-size: 60px; 
 }
-@media screen and (max-width: 600px){
-    .homecontent h1{
-        font-size: 80px;
-        
+@media screen and (max-width: 600px)
+{
+    .home img
+    {
+        height: 700px;
+    }
+    .homecontent h1
+    {
+        font-size: 40px;
     }
     .homecontent{
    

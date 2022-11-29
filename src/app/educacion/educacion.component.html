@@ -1,1 +1,17 @@
-<p>educacion works!</p>
+<section class="educacion">
+<div class="container">
+    <h1 class="text-center">Formación</h1>
+    <hr>
+    <div class="row mt-5 ">
+        <div class="col-lg-4 mb-5"   *ngFor="let cs of educacion">
+            <div clas="box shadow-sm">
+                <img src="{{cs.image}}" width="80%">
+                <h3 class="mt-2"> {{cs.name}} </h3>
+                <p class="mt-2">{{cs.description}}</p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</section>

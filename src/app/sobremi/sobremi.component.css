@@ -1,0 +1,14 @@
+.redes a
+{
+    padding: 10px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration:none;
+}
+@media screen and (max-width:600px){
+    .redes a
+    {
+        padding: 5px;
+        border-radius: 10px;
+    }
+}
