@@ -15,17 +15,17 @@ export class EducacionComponent implements OnInit {
   educacion = [ 
     {
     'id': 1,
-    'name': 'Hola',
+    'name': 'Escuela Industrial Superior - UNL',
     'description': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-    'image': '../../assets/APLogo.png'
+    'image': '../../assets/eis.jpg'
     }, {
     'id': 2,
-    'name': 'que ',
+    'name': 'UTN - Facultad Regional Santa Fe ',
     'description': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-    'image': '../../assets/APLogo.png'
+    'image': '../../assets/utn.png'
     }, {
     'id': 3,
-    'name': 'puta (:',
+    'name': 'Argentina Programa',
     'description': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
     'image': '../../assets/APLogo.png'
     },

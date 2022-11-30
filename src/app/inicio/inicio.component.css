@@ -16,6 +16,7 @@
  color: white;  
  font-size: 60px; 
 }
+
 @media screen and (max-width: 600px)
 {
     .home img
@@ -27,9 +28,8 @@
         font-size: 40px;
     }
     .homecontent{
-   
     top: 65%;
-    left: 15%;
+    left: 35%;
     transform: translate(-50%,-50%)
     
 }
